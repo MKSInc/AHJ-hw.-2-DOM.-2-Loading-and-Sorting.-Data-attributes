@@ -2,3 +2,23 @@ h1, h2 {
   text-align: center;
   font-family: sans-serif;
 }
+
+.table {
+  margin: 0 auto;
+}
+
+th {
+  position: relative;
+}
+
+th, td {
+  border: 1px solid lightgray;
+  padding: 3px 10px;
+}
+
+.sortBy::before {
+  content: '\2193';
+  position: absolute;
+  right: 2px;
+  font-size: 90%;
+}
